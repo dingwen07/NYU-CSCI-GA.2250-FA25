@@ -1,0 +1,9 @@
+# Target files
+nyush
+
+# Autograder
+nyush-autograder.tar.xz
+nyush-autograder/
+
+# Submit files
+*.zip
