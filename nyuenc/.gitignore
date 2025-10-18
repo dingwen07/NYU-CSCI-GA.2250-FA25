@@ -1,0 +1,18 @@
+
+# Target files
+nyuenc
+
+# Submit files
+nyuenc.zip
+
+# Autograder
+nyuenc-autograder.tar.xz
+nyuenc-autograder/
+
+# Make
+docker-build
+
+# Test and output files
+*.txt
+*.out
+*.enc

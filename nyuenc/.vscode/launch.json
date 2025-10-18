@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "nyuenc -j 3 nyuenc-autograder/inputs/4.in",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/nyuenc",
+            "args": [
+                "-j",
+                "3",
+                "/Users/dingwen/GitHub/NYU-CSCI-GA.2250/nyuenc/nyuenc-autograder/inputs/4.in"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build with Makefile",
+            "miDebuggerPath": "${extensionInstallFolder:ms-vscode.cpptools}/debugAdapters/lldb-mi/bin/lldb-mi",
+            "logging": {
+                "engineLogging": true
+            }
+        }
+    ]
+}
